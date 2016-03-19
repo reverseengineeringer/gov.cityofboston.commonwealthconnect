@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SCF.ScrollView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.seeclickfix.ma.android.views.StyledTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/login_signin" style="@style/GenericPageHeader" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_email_label" style="@style/GenericTextBody" />
+        <AutoCompleteTextView android:id="@id/login_email_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/login_email_hint" android:inputType="textEmailAddress" android:imeOptions="flagNoExtractUi" style="@style/GenericInput" />
+        <TextView android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_pwd_label" style="@style/GenericTextBody" />
+        <EditText android:id="@id/login_pwd_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPassword" android:imeOptions="actionDone|flagNoExtractUi" style="@style/GenericInput" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/login_signin_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/login_signin" style="@style/ImportantButton" />
+            <TextView android:gravity="right" android:layout_gravity="right" android:id="@id/login_pwd_forgot_btn" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/padding_large" android:text="@string/login_pwd_forgot" style="@style/SCF.TextLink" />
+        </LinearLayout>
+        <ProgressBar android:id="@id/login_progresswheel" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" />
+        <TextView android:id="@id/login_result_textview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GenericTextBody" />
+        <com.seeclickfix.ma.android.views.StyledTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/login_dont_have_acct" style="@style/GenericPageHeader" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_dont_have_acct_text" style="@style/GenericTextBody" />
+        <Button android:id="@id/login_create_acct_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/reg_submit_btn" style="@style/ImportantButton" />
+        <View android:layout_width="fill_parent" android:layout_height="100.0dip" />
+        <Button android:id="@id/login_skip_btn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/login_skip" style="@style/GenericButton" />
+    </LinearLayout>
+</ScrollView>

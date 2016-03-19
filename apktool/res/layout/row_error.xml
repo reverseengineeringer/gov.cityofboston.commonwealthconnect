@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/scf_bg_grey" android:padding="@dimen/padding_large" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/txt_large_size" android:id="@id/row_err_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lorem_1p" android:textAlignment="gravity" style="@style/GenericTextLabel" />
+    <Button android:textColor="@color/scf_gray2" android:id="@id/row_err_btn_account" android:background="@drawable/btn_generic" android:paddingLeft="@dimen/padding_large" android:paddingTop="@dimen/padding_large" android:paddingRight="@dimen/padding_large" android:paddingBottom="@dimen/padding_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="4.0dip" android:text="@string/me_btn_account" android:drawableRight="@drawable/ic_social_person" />
+</LinearLayout>

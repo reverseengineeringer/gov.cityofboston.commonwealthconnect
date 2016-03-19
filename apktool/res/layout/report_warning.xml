@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/scf_orange_dark" android:padding="@dimen/padding_large" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center|left" android:id="@id/rpt_warning_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_info_white" android:drawablePadding="@dimen/padding_large" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:gravity="center|left" android:id="@id/rpt_warning_text2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_large" android:layout_marginBottom="@dimen/margin_large" />
+    <Button android:textSize="16.0sp" android:textColor="#ff333333" android:gravity="center|left" android:layout_gravity="center_vertical" android:id="@id/rpt_warning_btn" android:background="@drawable/btn_generic" android:paddingLeft="@dimen/padding_xlarge" android:paddingTop="@dimen/padding_xlarge" android:paddingRight="@dimen/padding_xlarge" android:paddingBottom="@dimen/padding_xlarge" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textIsSelectable="false" />
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GenericInput" parent="@style/Theme.Sherlock.Light">
+        <item name="android:textSize">@dimen/txt_semi_large_size</item>
+        <item name="android:textColor">#ff222222</item>
+        <item name="android:background">@drawable/subcard_bg</item>
+        <item name="android:padding">@dimen/padding_small</item>
+        <item name="android:layout_marginLeft">@dimen/margin_medium</item>
+        <item name="android:layout_marginTop">@dimen/margin_medium</item>
+        <item name="android:layout_marginRight">@dimen/margin_medium</item>
+        <item name="android:layout_marginBottom">@dimen/margin_medium</item>
+    </style>
+    <style name="GenericTextBody" parent="@style/Theme.Sherlock.Light">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">#ff222222</item>
+        <item name="android:layout_marginLeft">4.0dip</item>
+        <item name="android:textIsSelectable">true</item>
+    </style>
+    <style name="SCF" parent="@style/SCFBaseTheme">
+        <item name="android:spinnerStyle">@style/Widget.Spinner</item>
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar.Light</item>
+        <item name="calendarViewStyle">@style/Widget.Holo.Light.CalendarView</item>
+        <item name="numberPickerStyle">@style/NPWidget.Holo.Light.NumberPicker</item>
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar.Light</item>
+        <item name="homeAsUpIndicator">@drawable/ic_drawer</item>
+        <item name="vpiCirclePageIndicatorStyle">@style/CustomCirclePageIndicator</item>
+        <item name="vpiLinePageIndicatorStyle">@style/CustomLinePageIndicator</item>
+        <item name="vpiTitlePageIndicatorStyle">@style/CustomTitlePageIndicator</item>
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+        <item name="vpiUnderlinePageIndicatorStyle">@style/CustomUnderlinePageIndicator</item>
+    </style>
+    <style name="SCF.ListView" parent="@style/SCF.ScrollView">
+        <item name="android:paddingTop">@dimen/padding_large</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">10.0dip</item>
+    </style>
+    <style name="SCF.ScrollView" parent="@style/SCF.Fragment">
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">8.0dip</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+    </style>
+    <style name="SCFBaseTheme" parent="@style/Theme.Sherlock.Light" />
+    <style name="Sherlock.__Theme" parent="@android:style/Theme.Holo">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Sherlock.__Theme.Light" parent="@android:style/Theme.Holo.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+    </style>
+    <style name="Widget.Spinner" parent="@android:style/Widget">
+        <item name="android:background">@drawable/btn_spinner</item>
+        <item name="android:clickable">true</item>
+        <item name="android:spinnerMode">dialog</item>
+    </style>
+    <style name="Widget.Styled.ActionBar.Light" parent="@style/Widget.Sherlock.Light.ActionBar">
+        <item name="android:windowTitleSize">0.0dip</item>
+        <item name="android:background">@drawable/actionbar_bg</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:indeterminateProgressStyle">@style/IndeterminateProgress</item>
+        <item name="background">@drawable/actionbar_bg</item>
+        <item name="backgroundSplit">@drawable/actionbar_bg</item>
+        <item name="indeterminateProgressStyle">@style/IndeterminateProgress</item>
+    </style>
+</resources>

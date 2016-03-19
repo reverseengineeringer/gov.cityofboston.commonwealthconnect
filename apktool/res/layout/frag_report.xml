@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scrollHorizontally="false" style="@style/SCF.Fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.seeclickfix.ma.android.views.CustomScrollView android:id="@id/rpt_scrollview" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SCF.ScrollView">
+        <LinearLayout android:orientation="vertical" android:id="@id/rpt_main_table" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="800.0dip">
+            <LinearLayout android:orientation="vertical" android:id="@id/card_notice" android:background="@drawable/card_bg" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/card_notice_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" layout="@layout/row_notice_web" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center|right" android:orientation="vertical" android:id="@id/draft_indicator" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/scf_orange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rpt_draft" style="@style/GenericTextBody" />
+                <TextView android:textColor="@color/scf_gray2" android:id="@id/draft_indicator_date" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GenericTextSmall" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/rpt_minimap_card_bg" android:background="@drawable/btn_card" android:padding="@dimen/padding_large" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+                    <FrameLayout android:id="@id/rpt_minimap_container" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_alignParentTop="true" />
+                    <com.seeclickfix.ma.android.views.TouchParentView android:id="@id/rpt_minimap_overlay" android:background="#01ffffff" android:layout_width="fill_parent" android:layout_height="120.0dip" android:layout_alignLeft="@id/rpt_minimap_container" android:layout_alignTop="@id/rpt_minimap_container" />
+                    <RelativeLayout android:id="@id/rpt_address_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="@dimen/margin_medium" android:layout_marginRight="0.0dip" android:layout_marginBottom="0.0dip" android:layout_below="@id/rpt_minimap_container">
+                        <ImageButton android:id="@id/rpt_location_address_edit" android:padding="@dimen/padding_medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:src="@drawable/ic_action_edit" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/GenericFlatButton" />
+                        <View android:id="@id/rpt_addres_divider_line" android:background="@drawable/divider_vertical_faded" android:layout_width="1.0dip" android:layout_height="36.0dip" android:layout_marginLeft="@dimen/margin_small" android:layout_marginTop="@dimen/margin_small" android:layout_marginRight="@dimen/margin_medium" android:layout_marginBottom="@dimen/margin_small" android:layout_toLeftOf="@id/rpt_location_address_edit" android:layout_centerVertical="true" />
+                        <com.seeclickfix.ma.android.views.EditTextWithBackDetect android:id="@id/rpt_location_address" android:background="#ffffffff" android:paddingLeft="0.0dip" android:paddingTop="4.0dip" android:paddingRight="4.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:hint="@string/rpt_location_address_hint" android:layout_toLeftOf="@id/rpt_addres_divider_line" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:inputType="textCapWords|textMultiLine" android:imeOptions="flagNoExtractUi" style="@style/GenericInput" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+            <CheckBox android:id="@id/rpt_use_current_loc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/rpt_location_auto" />
+            <FrameLayout android:orientation="vertical" android:id="@id/rpt_accuracy_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:orientation="vertical" android:id="@id/rpt_alert_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <FrameLayout android:orientation="vertical" android:id="@id/rpt_cat_instructions" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.seeclickfix.ma.android.views.StyledTextView android:id="@id/rpt_category_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/rpt_category_label" style="@style/GenericTextLabel" />
+            </FrameLayout>
+            <LinearLayout android:id="@id/rpt_row_category" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@id/rpt_category_container" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SCF.ReportSection">
+                    <ProgressBar android:layout_gravity="left" android:layout_width="24.0dip" android:layout_height="24.0dip" android:indeterminate="true" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/rpt_row_followup" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.seeclickfix.ma.android.views.StyledTextView android:id="@id/rpt_followup_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/rpt_followup_label" style="@style/GenericTextLabel" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SCF.ReportSection">
+                    <TextView android:textSize="18.0sp" android:id="@id/rpt_followup_body" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GenericTextBody" />
+                    <TextView android:textSize="14.0sp" android:id="@id/rpt_followup_body_2" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GenericTextBody" />
+                    <LinearLayout android:orientation="vertical" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="0.0dip">
+                        <TextView android:id="@id/rpt_summary_label" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_small" android:layout_marginTop="20.0dip" android:text="@string/rpt_summary_label" />
+                        <EditText android:gravity="center|left|top" android:id="@id/rpt_summary_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textCapSentences" android:imeOptions="flagNoExtractUi" style="@style/GenericInputDark" />
+                        <TextView android:id="@id/rpt_description_label" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_small" android:layout_marginTop="20.0dip" android:text="@string/rpt_description_label" />
+                        <EditText android:gravity="center|left|top" android:id="@id/rpt_description_edittext" android:layout_width="fill_parent" android:layout_height="96.0dip" android:lines="3" android:singleLine="false" android:inputType="textCapSentences|textMultiLine" android:imeOptions="flagNoExtractUi" style="@style/GenericInputDark" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/rpt_followup_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ProgressBar android:layout_gravity="left" android:layout_width="24.0dip" android:layout_height="24.0dip" android:indeterminate="true" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/rpt_photo_tablerow" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.seeclickfix.ma.android.views.StyledTextView android:id="@id/rpt_photo_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_span="2" android:text="@string/rpt_photo_label" style="@style/GenericTextLabel" />
+                <LinearLayout android:id="@id/rpt_img_card" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SCF.ReportSection">
+                    <LinearLayout android:orientation="vertical" android:id="@id/rpt_image_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/rpt_image" android:background="#ffe1e1e2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="120.0dip" android:scaleType="centerCrop" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <Button android:id="@id/rpt_edit_media" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:text="@string/dtl_edit_media_btn" android:drawableLeft="@drawable/ic_content_edit" android:layout_weight="1.0" style="@style/GenericFlatButton" />
+                            <Button android:id="@id/rpt_clear_media" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:text="@string/dtl_delete_media_btn" android:drawableLeft="@drawable/ic_delete" android:layout_weight="1.0" style="@style/GenericFlatButton" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/rpt_noimage_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@id/rpt_image_placeholder" android:background="#ffe1e1e2" android:layout_width="fill_parent" android:layout_height="100.0dip" android:src="@drawable/no_image" android:scaleType="centerInside" />
+                        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                            <Button android:id="@id/rpt_photo_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:text="@string/rpt_photo_btn" android:drawableLeft="@drawable/ic_camera" android:layout_weight="1.0" style="@style/GenericFlatButton" />
+                            <Button android:id="@id/rpt_gallery_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:text="@string/rpt_gallery_btn" android:drawableLeft="@drawable/ic_content_picture" android:layout_weight="1.0" style="@style/GenericFlatButton" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/rpt_anonymous_tablerow" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.seeclickfix.ma.android.views.StyledTextView android:id="@id/rpt_anonymous_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_span="2" android:text="@string/rpt_anonymous_label" style="@style/GenericTextLabel" />
+                <LinearLayout android:id="@id/rpt_anonymous_card" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SCF.ReportSection">
+                    <CheckBox android:id="@id/rpt_keep_anonymous" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:text="@string/rpt_keep_anonymous" style="@style/GenericInput" />
+                    <TextView android:textColor="#ff333333" android:gravity="center|left" android:linksClickable="true" android:layout_gravity="center_vertical" android:id="@id/rpt_anonymous_text" android:paddingLeft="4.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_small" android:layout_marginRight="@dimen/margin_small" android:layout_marginBottom="16.0dip" android:text="@string/rpt_anonymous_text" android:textIsSelectable="false" style="@style/GenericTextBody" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/rpt_send_tablerow" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:textSize="16.0sp" android:gravity="center|left" android:id="@id/rpt_submit_btn" android:padding="@dimen/padding_large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="16.0dip" android:text="@string/rpt_send_title" android:drawableLeft="@drawable/ic_send_report_white" style="@style/SCF.ReportSendBtn" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.seeclickfix.ma.android.views.CustomScrollView>
+    <include android:id="@id/err_include" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" layout="@layout/row_error" />
+    <FrameLayout android:gravity="center" android:id="@id/common_loading_layout" android:background="@color/scf_translucent_black" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="@android:style/Widget.ProgressBar.Large.Inverse" />
+    </FrameLayout>
+</RelativeLayout>

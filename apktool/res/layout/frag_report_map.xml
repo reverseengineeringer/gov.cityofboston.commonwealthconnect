@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/rpt_map_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" style="@style/SCF.Footer">
+        <Button android:id="@id/rpt_map_save_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rpt_map_save_btn" android:drawableRight="@drawable/ic_map_pin" android:layout_alignParentRight="true" style="@style/GenericButton" />
+        <com.seeclickfix.ma.android.views.StyledTextView android:id="@id/rpt_map_header_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rpt_map_instructions" android:layout_toLeftOf="@id/rpt_map_save_btn" android:layout_alignParentLeft="true" style="@style/SCF.Footer.Text" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/rpt_map_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/rpt_map_footer" />
+    <View android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="feed_sort_options">
+        <item>Alphabetical</item>
+        <item>Most recent</item>
+        <item>Votes</item>
+        <item>Comments</item>
+    </string-array>
+    <string-array name="lst_sort_options">
+        <item>Alphabetical</item>
+        <item>By most recent</item>
+        <item>Number of votes</item>
+        <item>Number of comments</item>
+    </string-array>
+    <string-array name="scf_local_test">
+        <item>en</item>
+        <item>es</item>
+        <item>pt</item>
+        <item>fr</item>
+        <item>system</item>
+    </string-array>
+    <string-array name="scf_server_chooser">
+        <item>Test</item>
+        <item>Production</item>
+        <item>Integrations</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="status_action_display">
+        <item>%s Reopened</item>
+        <item>%s Closed</item>
+        <item>%s Acknowledged</item>
+    </string-array>
+    <string-array name="status_display">
+        <item>Open</item>
+        <item>Closed</item>
+        <item>Acknowledged</item>
+        <item>Archived</item>
+    </string-array>
+</resources>

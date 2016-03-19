@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ff444444" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/map_header" android:background="@color/scf_logo_grey" android:paddingLeft="@dimen/padding_large" android:paddingTop="0.0dip" android:paddingRight="0.0dip" android:paddingBottom="0.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip">
+        <ImageButton android:id="@id/map_list_btn" android:padding="@dimen/padding_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:src="@drawable/ic_issues_white" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/GenericClearButton" />
+        <ProgressBar android:id="@id/map_lst_progress_wheel" android:visibility="invisible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:indeterminate="true" android:layout_toLeftOf="@id/map_list_btn" android:layout_centerVertical="true" />
+        <com.seeclickfix.ma.android.views.StyledTextView android:id="@id/lst_header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/map_lst_progress_wheel" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/SCF.Footer.Text" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/maplist_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/map_header" android:layout_alignWithParentIfMissing="true" />
+    <View android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

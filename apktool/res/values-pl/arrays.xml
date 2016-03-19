@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="feed_sort_options">
+        <item>Alfabetycznie</item>
+        <item>Najnowsze</item>
+        <item>Głosów</item>
+        <item>Komentarze</item>
+    </string-array>
+    <string-array name="lst_sort_options">
+        <item>Alfabetycznie</item>
+        <item>Od najnowszych</item>
+        <item>Liczba głosów</item>
+        <item>Ilość komentarzy</item>
+    </string-array>
+    <string-array name="status_action_display">
+        <item>ponownie %s</item>
+        <item>%s zamknięty</item>
+        <item>%s potwierdził</item>
+    </string-array>
+    <string-array name="status_display">
+        <item>Otwarte</item>
+        <item>Zamknięte</item>
+        <item>Potwierdzone</item>
+        <item>Archiwalne</item>
+    </string-array>
+</resources>

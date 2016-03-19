@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/unb_flood" android:scaleType="centerCrop" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/icon1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_see" />
+        <com.seeclickfix.ma.android.views.LogoTextView android:id="@id/largeText1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unb_text1" style="@style/SCF.Unboxing.Text.Large" />
+        <com.seeclickfix.ma.android.views.LogoTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unb_subtext1a" style="@style/SCF.Unboxing.Text.Medium" />
+        <com.seeclickfix.ma.android.views.LogoTextView android:id="@id/smallText1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/unb_subtext1" style="@style/SCF.Unboxing.Text.Small" />
+    </LinearLayout>
+</RelativeLayout>

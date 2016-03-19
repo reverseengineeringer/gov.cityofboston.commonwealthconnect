@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/btn_status" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/btn_icon" android:focusable="false" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_alignParentRight="true" />
+    <LinearLayout android:id="@id/btn_divider_ll" android:background="#ffcccccc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4.0dip" android:layout_toLeftOf="@id/btn_icon">
+        <View android:id="@id/btn_vert_line" android:background="#ffcccccc" android:layout_width="2.0dip" android:layout_height="24.0dip" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/btn_divider_ll" android:layout_alignParentLeft="true">
+        <TextView android:id="@id/btn_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

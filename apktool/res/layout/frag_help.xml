@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SCF.ScrollView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.seeclickfix.ma.android.views.LogoTextView android:textSize="100.0sp" android:textColor="#ffaad2f7" android:ellipsize="none" android:id="@id/dash_bg_txt" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/help_title" android:singleLine="true" />
+            <com.seeclickfix.ma.android.views.LogoTextView android:textSize="36.0sp" android:ellipsize="none" android:id="@id/app_title" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_name" android:singleLine="true" android:layout_alignBottom="@id/dash_bg_txt" />
+        </RelativeLayout>
+        <TextView android:autoLink="email" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/help_content" style="@style/GenericTextBody" />
+        <com.seeclickfix.ma.android.views.StyledTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/help_contact_title" style="@style/GenericTextLabel" />
+        <TextView android:autoLink="phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/help_contact_phone" style="@style/GenericTextBody" />
+        <TextView android:autoLink="phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/help_contact_phone2" style="@style/GenericTextBody" />
+        <com.seeclickfix.ma.android.views.StyledTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/help_contact_address_title" style="@style/GenericTextLabel" />
+        <TextView android:autoLink="map" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/help_contact_address" style="@style/GenericTextBody" />
+    </LinearLayout>
+</ScrollView>

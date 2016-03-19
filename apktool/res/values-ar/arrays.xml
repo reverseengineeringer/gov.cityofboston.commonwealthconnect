@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="feed_sort_options">
+        <item>أبجدي</item>
+        <item>الأحدث</item>
+        <item>أصوات</item>
+        <item>تعليقات</item>
+    </string-array>
+    <string-array name="lst_sort_options">
+        <item>أبجدي</item>
+        <item>حسب الأحدث</item>
+        <item>عدد الأصوات</item>
+        <item>عدد التعليقات</item>
+    </string-array>
+    <string-array name="status_action_display">
+        <item>%s أعيد فتحها</item>
+        <item>%s أغلقت</item>
+        <item>%s أقرت</item>
+    </string-array>
+    <string-array name="status_display">
+        <item>مفتوح</item>
+        <item>مغلق</item>
+        <item>تم إقراره</item>
+        <item>Archived</item>
+    </string-array>
+</resources>

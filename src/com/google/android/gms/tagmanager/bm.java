@@ -1,0 +1,18 @@
+package com.google.android.gms.tagmanager;
+
+import java.io.IOException;
+import java.io.InputStream;
+
+abstract interface bm
+{
+  public abstract InputStream cF(String paramString)
+    throws IOException;
+  
+  public abstract void close();
+}
+
+/* Location:
+ * Qualified Name:     com.google.android.gms.tagmanager.bm
+ * Java Class Version: 6 (50.0)
+ * JD-Core Version:    0.7.1
+ */

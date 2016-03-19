@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="feed_sort_options">
+        <item>Abjad</item>
+        <item>Paling terkini</item>
+        <item>Undi</item>
+        <item>Komen</item>
+    </string-array>
+    <string-array name="lst_sort_options">
+        <item>Abjad</item>
+        <item>Mengikut paling terkini</item>
+        <item>Jumlah undi</item>
+        <item>Jumlah komen</item>
+    </string-array>
+    <string-array name="status_action_display">
+        <item>%s Dibuka Semula</item>
+        <item>%s Ditutup</item>
+        <item>%s Diakui</item>
+    </string-array>
+    <string-array name="status_display">
+        <item>Buka</item>
+        <item>Ditutup</item>
+        <item>Diakui</item>
+        <item>Archived</item>
+    </string-array>
+</resources>

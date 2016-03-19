@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="8.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip">
+        <rotate android:drawable="@drawable/spinner_48_inner_holo" android:fromDegrees="-180.0" android:toDegrees="180.0" android:pivotX="50.0%" android:pivotY="50.0%" android:fillAfter="true" />
+    </item>
+    <item android:left="8.0dip" android:top="8.0dip" android:right="8.0dip" android:bottom="8.0dip">
+        <rotate android:drawable="@drawable/spinner_48_outer_holo" android:fromDegrees="180.0" android:toDegrees="-180.0" android:pivotX="50.0%" android:pivotY="50.0%" android:fillAfter="true" />
+    </item>
+</layer-list>

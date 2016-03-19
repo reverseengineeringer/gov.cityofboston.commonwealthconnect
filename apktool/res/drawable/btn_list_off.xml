@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <nine-patch android:src="@drawable/card_bg" android:dither="true" />
+    </item>
+    <item>
+        <shape android:dither="true" android:shape="rectangle">
+            <solid android:color="#fffefdfd" />
+        </shape>
+    </item>
+</layer-list>

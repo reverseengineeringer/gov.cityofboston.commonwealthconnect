@@ -1,0 +1,178 @@
+{
+   "enhanced_watch_areas":[
+      {
+         "id":13,
+         "title":"The District of Columbia",
+         "description":"One City, One Future",
+         "created_at":"2010-01-21T13:29:12-05:00",
+         "updated_at":"2011-05-31T20:21:16-04:00",
+         "h_background_color":"#FFFFFF",
+         "h_text_color":"#000000",
+         "h_highlight_color":"#FF0000",
+         "h_start_gradient_button_color":"#5098f5",
+         "logo_path":"http://test.seeclickfix.com/files/enhanced_watch_area_logo/logos/13/original/newhaven20.png",
+         "demo_code":"",
+         "h_button_color":"#3988ed",
+         "mobile_buttons_with_defaults":[
+            {
+               "label":"Report",
+               "icon_name":"new_report.png",
+               "action":"Local Window",
+               "uri":"scf://report"
+            },
+            {
+               "label":"Issues",
+               "icon_name":"issues.png",
+               "action":"Local Window",
+               "uri":"scf://issues"
+            },
+            {
+               "label":"Neighbors",
+               "icon_name":"neighbors.png",
+               "action":"Local Window",
+               "uri":"scf://neighbors"
+            },
+            {
+               "label":"Messages",
+               "icon_name":"messages.png",
+               "action":"Local Window Login",
+               "uri":"scf://messages"
+            },
+            {
+               "label":"My Profile",
+               "icon_name":"my_profile.png",
+               "action":"Local Window Login",
+               "uri":"scf://profile"
+            },
+            {
+               "label":"Settings",
+               "icon_name":"settings.png",
+               "action":"Local Window",
+               "uri":"scf://settings"
+            },
+            {
+               "label":"Calendar ",
+               "icon_name":"ic_calendar_custom.png",
+               "action":"Browser",
+               "uri":"http://calendar.cityofnewhaven.com/scripts/webevent.pl?cmd=calmonth&userid=guest&calID=72"
+            },
+            {
+               "label":"RSS",
+               "icon_name":"ic_rss.png",
+               "action":"Web View",
+               "uri":"feed://seeclickfix.com/new-haven.rss"
+            },
+            {
+               "label":"Snow",
+               "icon_name":"ic_snow.png",
+               "action":"Web View",
+               "uri":"http://test.seeclickfix.com/mobile_buttons/110"
+            },
+            {
+               "label":"Kids",
+               "icon_name":"ic_kids.png",
+               "action":"Web View",
+               "uri":"http://test.seeclickfix.com/mobile_buttons/111"
+            },
+            {
+               "label":"Call 311",
+               "icon_name":"ic_phone_white.png",
+               "action":"phone_number",
+               "uri":"tel://311"
+            },
+            {
+               "label":"More",
+               "icon_name":"ic_more.png",
+               "action":"Web View",
+               "uri":"http://test.seeclickfix.com/mobile_buttons/111"
+            }
+         ]
+      },
+      {
+         "id":440,
+         "title":"Winter Storm #Saturn",
+         "description":null,
+         "created_at":"2013-03-08T10:37:17-05:00",
+         "updated_at":"2013-03-08T10:39:13-05:00",
+         "h_background_color":"#FFFFFF",
+         "h_text_color":"#000000",
+         "h_highlight_color":"#F06D1E",
+         "h_start_gradient_button_color":"#F06D1E",
+         "logo_path":"http://test.seeclickfix.com/assets/logos/mobile_app/seeclickfix.png",
+         "demo_code":"",
+         "h_button_color":"#F06D1E",
+         "mobile_buttons_with_defaults":[
+            {
+               "label":"Report",
+               "icon_name":"new_report.png",
+               "action":"Local Window",
+               "uri":"scf://report"
+            },
+            {
+               "label":"Issues",
+               "icon_name":"issues.png",
+               "action":"Local Window",
+               "uri":"scf://issues"
+            },
+            {
+               "label":"Neighbors",
+               "icon_name":"neighbors.png",
+               "action":"Local Window",
+               "uri":"scf://neighbors"
+            },
+            {
+               "label":"Messages",
+               "icon_name":"messages.png",
+               "action":"Local Window Login",
+               "uri":"scf://messages"
+            },
+            {
+               "label":"My Profile",
+               "icon_name":"my_profile.png",
+               "action":"Local Window Login",
+               "uri":"scf://profile"
+            },
+            {
+               "label":"Settings",
+               "icon_name":"settings.png",
+               "action":"Local Window",
+               "uri":"scf://settings"
+            }
+         ]
+      }
+   ],
+   "place":{
+      "id":3039,
+      "name":"New Haven",
+      "url_name":"new-haven",
+      "city":"New Haven",
+      "state":"CT",
+      "name_and_state":"New Haven, CT",
+      "simplified_center":{
+         "lat":41.31037258994274,
+         "lng":-72.92415951148533
+      }
+   },
+   "geocode":{
+      "success":true,
+      "lat":41.3081527,
+      "lng":-72.9281577,
+      "country_code":"US",
+      "city":"New Haven",
+      "state":"CT",
+      "zip":null,
+      "street_address":null,
+      "province":"CT",
+      "district":"New Haven",
+      "provider":"google3",
+      "full_address":"New Haven, CT, USA",
+      "is_us?":true,
+      "ll":"41.3081527,-72.9281577",
+      "precision":"city",
+      "district_fips":null,
+      "state_fips":null,
+      "block_fips":null,
+      "sub_premise":null
+   },
+   "enhanced_watch_area_id":13
+}

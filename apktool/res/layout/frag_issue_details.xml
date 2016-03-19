@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SCF.ScrollView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/dtl_rpt_screen" android:paddingTop="@dimen/padding_large" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:gravity="center" android:id="@id/dtl_loading_layout" android:background="@color/scf_bg_grey" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="640.0dip">
+            <ProgressBar android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/card_notice" android:background="@drawable/card_bg" android:padding="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/card_notice_panel" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" layout="@layout/row_notice_web" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/map_page" android:background="@drawable/card_bg" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:id="@id/dtl_iss_user_name" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="2.0dip" android:drawableLeft="@drawable/ic_social_person" style="@style/GenericTextBody" />
+                <LinearLayout android:gravity="center|right" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/dtl_date_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" style="@style/GenericTextSmall" />
+                </LinearLayout>
+            </LinearLayout>
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/dtl_issue_img" android:layout_width="fill_parent" android:layout_height="120.0dip" />
+                <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ffffffff" android:id="@id/dtl_iss_status_txt_display" android:paddingLeft="@dimen/padding_medium" android:paddingTop="@dimen/padding_small" android:paddingRight="@dimen/padding_medium" android:paddingBottom="@dimen/padding_small" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_large" android:layout_alignRight="@id/dtl_issue_img" android:layout_alignBottom="@id/dtl_issue_img" android:textAllCaps="true" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:id="@id/dtl_btn_star" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/check_star" android:layout_alignParentRight="true" />
+                <com.seeclickfix.ma.android.views.StyledTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/dtl_summary_txt" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_toLeftOf="@id/dtl_btn_star" android:layout_alignParentLeft="true" style="@style/GenericTextLabel" />
+            </RelativeLayout>
+            <TextView android:id="@id/dtl_description_txt" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GenericTextBody" />
+            <LinearLayout android:gravity="center_vertical" android:id="@id/dtl_btns_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <CheckBox android:textSize="12.0sp" android:gravity="center_vertical" android:id="@id/dtl_comments_btn" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/scf_comment_icon" android:minWidth="48.0dip" android:minHeight="36.0dip" style="@style/GenericClearButton" />
+                <CheckBox android:textSize="12.0sp" android:gravity="center_vertical" android:id="@id/dtl_votes_btn" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/scf_vote_icon" android:minWidth="48.0dip" android:minHeight="36.0dip" style="@style/GenericClearButton" />
+                <CheckBox android:textSize="12.0sp" android:gravity="center_vertical" android:id="@id/dtl_flag_btn" android:padding="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/ic_action_error" android:minWidth="48.0dip" android:minHeight="36.0dip" style="@style/GenericClearButton" />
+                <FrameLayout android:layout_gravity="center_vertical" android:id="@id/dtl_status_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/dtl_map_btn" android:background="@drawable/btn_card" android:padding="8.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="96.0dip">
+            <FrameLayout android:id="@id/dtl_map_container" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.seeclickfix.ma.android.views.TouchParentView android:background="#01ffffff" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignLeft="@id/dtl_map_container" android:layout_alignTop="@id/dtl_map_container" android:layout_alignWithParentIfMissing="true" />
+            <TextView android:id="@id/dtl_location_txt" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip" android:maxWidth="100.0dip" android:maxLines="4" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/GenericTextBody" />
+        </RelativeLayout>
+        <com.seeclickfix.ma.android.views.StyledTextView android:id="@id/dtl_comments_header_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/dtl_comment_header" style="@style/GenericTextLabel" />
+        <LinearLayout android:orientation="vertical" android:id="@id/dtl_comments_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ProgressBar android:layout_width="24.0dip" android:layout_height="24.0dip" android:indeterminate="true" />
+        </LinearLayout>
+        <TextView android:id="@id/dtl_no_comments_tv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dtl_no_comments" style="@style/GenericTextSmall" />
+        <com.seeclickfix.ma.android.views.StyledTextView android:id="@id/dtl_add_comment_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/dtl_add_comment_label" style="@style/GenericTextLabel" />
+        <LinearLayout android:id="@id/dtl_cmt_thumbnail_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SCF.ReportSection">
+            <ImageView android:id="@id/dtl_cmt_thumbnail" android:background="#ffe1e1e2" android:layout_width="fill_parent" android:layout_height="120.0dip" android:scaleType="centerCrop" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <Button android:id="@id/dtl_edit_media" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:text="@string/dtl_edit_media_btn" android:drawableLeft="@drawable/ic_content_edit" android:layout_weight="1.0" style="@style/GenericFlatButton" />
+                <Button android:id="@id/dtl_clear_media" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:text="@string/dtl_delete_media_btn" android:drawableLeft="@drawable/ic_delete" android:layout_weight="1.0" style="@style/GenericFlatButton" />
+            </LinearLayout>
+        </LinearLayout>
+        <include android:id="@id/dtl_comment_progresswheel" android:visibility="gone" layout="@layout/loading_widget" />
+        <EditText android:id="@id/dtl_addcomment_editext" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="@dimen/margin_medium" android:layout_marginRight="@dimen/margin_medium" android:layout_marginBottom="@dimen/margin_medium" android:hint="@string/dtl_comment_hint" android:singleLine="true" android:inputType="textCapSentences" android:imeOptions="actionDone|flagNoExtractUi" style="@style/GenericInput" />
+        <LinearLayout android:gravity="center|right" android:orientation="horizontal" android:id="@id/dtl_media_btns_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageButton android:id="@id/dtl_comment_camera_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_camera" style="@style/GenericClearButton" />
+            <ImageButton android:id="@id/dtl_gallery_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_content_picture" style="@style/GenericClearButton" />
+            <Button android:id="@id/dtl_addcomment_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:text="@string/dtl_add_comment_btn_label" style="@style/GenericButton" />
+        </LinearLayout>
+        <TextView android:layout_gravity="left" android:id="@id/dtl_issue_id" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GenericTextSmall" />
+        <View android:layout_width="fill_parent" android:layout_height="256.0dip" />
+    </LinearLayout>
+</ScrollView>

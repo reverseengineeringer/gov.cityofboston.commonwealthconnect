@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:dither="true" android:shape="rectangle">
+            <solid android:color="@color/scf_img_bg_grey" />
+        </shape>
+    </item>
+    <item>
+        <bitmap android:gravity="center|left" android:src="@drawable/no_image" android:dither="true" android:tileMode="disabled" />
+    </item>
+</layer-list>

@@ -1,0 +1,1364 @@
+[
+{
+name: "(No location selected)",
+lat: 0.0,
+lng: 0.0,
+accuracy: 0.0,
+provider: "none"
+},
+{
+"name":"City of Lowell",
+"lat":42.63697449999988,
+"lng":-71.3268545
+},
+{
+"name":"City of Newberg",
+"lat":45.30705949999992,
+"lng":-122.9582245
+},
+{
+"name":"City of North Adams",
+"lat":42.683505192143784,
+"lng":-73.11830176865206
+},
+{
+"name":"City of Hendersonville (City of Hendersonville, NC)",
+"lat":35.32445041569807,
+"lng":-82.45357947950012
+},
+{
+"name":"City of Revere (Revere, MA)",
+"lat":42.41910599999987,
+"lng":-70.9918485
+},
+{
+"name":"Town of Wakefield",
+"lat":42.50116149999987,
+"lng":-71.06817050000001
+},
+{
+"name":"City of Worcester",
+"lat":42.275434999999874,
+"lng":-71.807738
+},
+{
+"name":"Navi Mumbai",
+"lat":19.025016697547986,
+"lng":73.0257797241211
+},
+{
+"name":"Town of Clarksburg",
+"lat":42.72604026812691,
+"lng":-73.10756303794625
+},
+{
+"name":"City of Greensboro (City of Greensboro)",
+"lat":36.10040616213053,
+"lng":-79.82848543775052
+},
+{
+"name":"City of Haverhill (Haverhill, MA)",
+"lat":42.78281699999988,
+"lng":-71.090384
+},
+{
+"name":"City of Forest Hills (City of Forest Hills)",
+"lat":36.066578999999706,
+"lng":-86.841928
+},
+{
+"name":"Forsyth County",
+"lat":36.117381279539465,
+"lng":-80.27577989089018
+},
+{
+"name":"City of Saline",
+"lat":42.176539499999876,
+"lng":-83.77798250000001
+},
+{
+"name":"Code Enforcement Area 3 (College Station Area 3)",
+"lat":30.57169156144685,
+"lng":-96.25621571345727
+},
+{
+"name":"Town of Westborough (Westborough, MA)",
+"lat":42.26596274679045,
+"lng":-71.60852868739373
+},
+{
+"name":"City of New Bedford (New Bedford, MA)",
+"lat":41.663793499999855,
+"lng":-70.927916
+},
+{
+"name":"Fitchburg, MA (Fitchburg, MA)",
+"lat":42.590838499999876,
+"lng":-71.805508
+},
+{
+"name":"Hartford 311 (Hartford, CT)",
+"lat":41.76559899999986,
+"lng":-72.6802775
+},
+{
+"name":"Essex Junction",
+"lat":44.48915301077324,
+"lng":-73.11335085465589
+},
+{
+"name":"Town of Watertown (Watertown, MA)",
+"lat":42.372138999999876,
+"lng":-71.1786495
+},
+{
+"name":"Town of Braintree (Braintree, MA)",
+"lat":42.20324999999987,
+"lng":-71.0048695
+},
+{
+"name":"City of New Haven (City of New Haven)",
+"lat":41.29841599999985,
+"lng":-72.9291785
+},
+{
+"name":"Atlantic County Utilities Authority (Hammonton)",
+"lat":39.65680224257466,
+"lng":-74.76753278507447
+},
+{
+"name":"Village of Perry (Village of Perry)",
+"lat":42.71656899999988,
+"lng":-78.0023035
+},
+{
+"name":"Town of Bedford (Bedford, MA)",
+"lat":42.49318818249364,
+"lng":-71.27595559535231
+},
+{
+"name":"CT Mental Health Center (CMHC Building)",
+"lat":41.30544235881071,
+"lng":-72.93677732348445
+},
+{
+"name":"City of Fort Lauderdale",
+"lat":26.140311999999298,
+"lng":-80.144372
+},
+{
+"name":"Town of Chilmark (Chilmark, MA)",
+"lat":41.35507499785838,
+"lng":-70.725496806483
+},
+{
+"name":"Town of Eastham (Eastham, MA)",
+"lat":41.83810927273228,
+"lng":-69.97701321923216
+},
+{
+"name":"Town of Wake Forest (Town of Wake Forest)",
+"lat":35.95902345041486,
+"lng":-78.51132973176226
+},
+{
+"name":"Town of Seekonk (Seekonk, MA)",
+"lat":41.83934032097193,
+"lng":-71.31995246832227
+},
+{
+"name":"Greenfield, MA",
+"lat":42.59036999999988,
+"lng":-72.59146849999999
+},
+{
+"name":"Macedon Ranges Shire Council",
+"lat":-37.24245499999971,
+"lng":144.52278000000004
+},
+{
+"name":"Town of Sudbury (Sudbury, MA)",
+"lat":42.38914310002324,
+"lng":-71.4225434033296
+},
+{
+"name":"Beverly Ward 6",
+"lat":42.56774290803264,
+"lng":-70.83130359649658
+},
+{
+"name":"City of Aguascalientes",
+"lat":22.0444384074531,
+"lng":-102.36030578613278
+},
+{
+"name":"Hendersonville Sewer (Hendersonville, NC Sewer)",
+"lat":35.31265732392607,
+"lng":-82.44638380751043
+},
+{
+"name":"Raleigh City Hall",
+"lat":35.839562064834894,
+"lng":-78.64488002706722
+},
+{
+"name":"Go! Fix",
+"lat":-26.925844639307492,
+"lng":133.9013671875
+},
+{
+"name":"Atlantic County Utilities Authority (Estell Manor)",
+"lat":39.372690614269715,
+"lng":-74.75950057358025
+},
+{
+"name":"Sarasota County (Pilot)",
+"lat":27.167507460509484,
+"lng":-82.34964932635526
+},
+{
+"name":"Go! Fix & Bike North",
+"lat":-33.615346320789016,
+"lng":151.091730594635
+},
+{
+"name":"Hendersonville Water (Hendersonville, NC Water)",
+"lat":35.34465732325714,
+"lng":-82.50734904596054
+},
+{
+"name":"Atlantic County Utilities Authority (Corbin City)",
+"lat":39.30663413769691,
+"lng":-74.71358832100401
+},
+{
+"name":"Raton, NM (Raton, NM)",
+"lat":36.88297249999973,
+"lng":-104.4383205
+},
+{
+"name":"City of Leduc",
+"lat":53.272293999993956,
+"lng":-113.54327299999994
+},
+{
+"name":"Town of North Andover",
+"lat":42.67261968824231,
+"lng":-71.08408365216486
+},
+{
+"name":"Test (Test)",
+"lat":39.50035673123017,
+"lng":-111.54653175824585
+},
+{
+"name":"Coon Rapids (Coon Rapids, MN)",
+"lat":45.16558499999992,
+"lng":-93.3196845
+},
+{
+"name":"Smith County, TX (Smith County, Texas)",
+"lat":32.410669270768224,
+"lng":-95.28983950316677
+},
+{
+"name":"Pinellas County",
+"lat":27.886951984871125,
+"lng":-82.7212142944336
+},
+{
+"name":"Howard County, MD (Howard County, MD)",
+"lat":39.23629734221308,
+"lng":-76.94173178168907
+},
+{
+"name":"Hamden (Hamden, CT)",
+"lat":41.3950948957627,
+"lng":-72.90793418884277
+},
+{
+"name":"Stoneham, MA (Stoneham, MA)",
+"lat":42.47315149999987,
+"lng":-71.0982345
+},
+{
+"name":"Newnan, GA",
+"lat":33.37775049999961,
+"lng":-84.76311100000001
+},
+{
+"name":"Ciudad de Juarez",
+"lat":31.673443483389924,
+"lng":-106.43123622983694
+},
+{
+"name":"C\\u00f4te Saint Luc",
+"lat":45.4680025000001,
+"lng":-73.66579399999989
+},
+{
+"name":"Princeton",
+"lat":40.34795967385337,
+"lng":-74.66981286575569
+},
+{
+"name":"City of Dunwoody",
+"lat":33.94275976060936,
+"lng":-84.30639679909217
+},
+{
+"name":"Town of Royalston",
+"lat":42.671814461066894,
+"lng":-72.19802856445312
+},
+{
+"name":"City of Malden (City of Malden)",
+"lat":42.42869199999987,
+"lng":-71.0546425
+},
+{
+"name":"City of Snellville",
+"lat":33.85544349999962,
+"lng":-83.99734899999999
+},
+{
+"name":"City of DeLeon",
+"lat":32.111142999999544,
+"lng":-98.53625350000002
+},
+{
+"name":"City of Russell Springs",
+"lat":37.04436649999974,
+"lng":-85.083685
+},
+{
+"name":"DPS (Department of Public Services)",
+"lat":42.515595499999876,
+"lng":-70.8472335
+},
+{
+"name":"Charleston, IL (Charleston, IL)",
+"lat":39.49000399999981,
+"lng":-88.19926699999999
+},
+{
+"name":"Atlantic County Utilities Authority (Hamilton Township)",
+"lat":39.50255903796848,
+"lng":-74.72899754765763
+},
+{
+"name":"Atlantic County Utilities Authority (Port Republic)",
+"lat":39.528736653323485,
+"lng":-74.47886752605169
+},
+{
+"name":"Atlantic County Utilities Authority (Galloway Township)",
+"lat":39.48566939923654,
+"lng":-74.48808331799614
+},
+{
+"name":"Code Enforcement Area 2 (College Station Area 2)",
+"lat":30.582574084033986,
+"lng":-96.31178374443688
+},
+{
+"name":"City of Nagpur",
+"lat":20.98873599999999,
+"lng":79.02727100000001
+},
+{
+"name":"Town of Needham (Needham, MA)",
+"lat":42.28546399999986,
+"lng":-71.24456699999999
+},
+{
+"name":"City of Newton",
+"lat":42.32540827928321,
+"lng":-71.21359015665567
+},
+{
+"name":"Code Enforcement Area 1 (College Station Area 1)",
+"lat":30.59740676889581,
+"lng":-96.33750347046835
+},
+{
+"name":"Atlantic County Utilities Authority (Brigantine)",
+"lat":39.40980752954931,
+"lng":-74.37308082399902
+},
+{
+"name":"City of Brockton, MA (City of Brockton, MA)",
+"lat":42.08438399999986,
+"lng":-71.02766349999999
+},
+{
+"name":"City of Albuquerque (City of Albuquerque)",
+"lat":35.08259799999932,
+"lng":-106.67649
+},
+{
+"name":"South Burlington ",
+"lat":44.46739437556218,
+"lng":-73.22737835123723
+},
+{
+"name":"Westwood Neighborhood Council",
+"lat":34.06478427780323,
+"lng":-118.440436646081
+},
+{
+"name":"City of Champaign (City of Champaign)",
+"lat":40.11463099999982,
+"lng":-88.27708799999999
+},
+{
+"name":"City of Quincy (City of Quincy)",
+"lat":47.237643999982325,
+"lng":-119.8523385
+},
+{
+"name":"City of Red Deer (City of Red Deer)",
+"lat":52.27925898129533,
+"lng":-113.80802998080189
+},
+{
+"name":"City of Pembroke Pines (Service Request)",
+"lat":26.021076999999295,
+"lng":-80.327899
+},
+{
+"name":"City of Burlington",
+"lat":44.4928894063395,
+"lng":-73.22657847420776
+},
+{
+"name":"Newark Service Department",
+"lat":40.077738499999825,
+"lng":-82.41910949999999
+},
+{
+"name":"Saugus Town Hall",
+"lat":42.467436999999876,
+"lng":-71.011395
+},
+{
+"name":"City of Hughson (City of Hughson)",
+"lat":37.59886899999975,
+"lng":-120.8654875
+},
+{
+"name":"SARA DB TESTING",
+"lat":37.715807499999755,
+"lng":-122.06657849999999
+},
+{
+"name":"Brentwood Borough (Brentwood Borough, Pennsylvania)",
+"lat":40.373116499999824,
+"lng":-79.97513849999999
+},
+{
+"name":"City of Fort Myers",
+"lat":26.61863549999932,
+"lng":-81.832298
+},
+{
+"name":"City of Palm Springs",
+"lat":33.77243699999963,
+"lng":-116.56384650000001
+},
+{
+"name":"City of Jerome (City of Jerome)",
+"lat":42.713603499999884,
+"lng":-114.51524099999999
+},
+{
+"name":"Calhoun County",
+"lat":42.246445987552136,
+"lng":-85.00473976135254
+},
+{
+"name":"City of Winston-Salem",
+"lat":36.10735599999942,
+"lng":-80.243458
+},
+{
+"name":"Fayetteville, NC (City of Fayetteville)",
+"lat":35.07573599999934,
+"lng":-78.95228499999999
+},
+{
+"name":"Mason City",
+"lat":43.14423799999989,
+"lng":-93.196457
+},
+{
+"name":"City of Berkeley (City of Berkeley)",
+"lat":37.87077549999976,
+"lng":-122.30098299999999
+},
+{
+"name":"Town of Randolph",
+"lat":42.17112199999987,
+"lng":-71.060824
+},
+{
+"name":"Crisfield City Hall",
+"lat":37.97887949999976,
+"lng":-75.855407
+},
+{
+"name":"Town of Nantucket (Nantucket, MA)",
+"lat":41.31521733277362,
+"lng":-70.0885107933355
+},
+{
+"name":"City of Melrose (Melrose, MA)",
+"lat":42.45720199999987,
+"lng":-71.05410800000001
+},
+{
+"name":"Code Enforcement Area 4 (College Station Area 4)",
+"lat":30.617463766771905,
+"lng":-96.32055992358326
+},
+{
+"name":"Boston 311",
+"lat":42.31434999999986,
+"lng":-70.97030000000001
+},
+{
+"name":"Town of Orange (Orange, MA)",
+"lat":42.59149299999987,
+"lng":-72.30559199999999
+},
+{
+"name":"Town of Swampscott",
+"lat":42.47004599999987,
+"lng":-70.8864545
+},
+{
+"name":"Marlborough, MA (Marlborough, MA)",
+"lat":42.345892999999876,
+"lng":-71.550658
+},
+{
+"name":"Quincy, MA",
+"lat":42.25892699999987,
+"lng":-71.01549500000002
+},
+{
+"name":"Mosinee, WI (Mosinee, WI)",
+"lat":44.785713499999915,
+"lng":-89.683364
+},
+{
+"name":"eThekwini Municipality",
+"lat":-29.88495700299885,
+"lng":30.873095006000064
+},
+{
+"name":"Corona (City of Corona Service Area)",
+"lat":33.825545881237616,
+"lng":-117.56137085947756
+},
+{
+"name":"North Central Commission Categories",
+"lat":41.36177217833814,
+"lng":-78.40620361593527
+},
+{
+"name":"Kearny, NJ (Kearny, NJ)",
+"lat":40.74843599999984,
+"lng":-74.1200005
+},
+{
+"name":"Richfield (City of Richfield)",
+"lat":44.87729899999991,
+"lng":-93.2788735
+},
+{
+"name":"Town of Chapel Hill",
+"lat":35.9193819999997,
+"lng":-79.0392645
+},
+{
+"name":"Town of Franklin (Franklin, Massachusetts)",
+"lat":42.08756599999987,
+"lng":-71.407305
+},
+{
+"name":"City of Hartsville",
+"lat":34.367301999999626,
+"lng":-80.083856
+},
+{
+"name":"Marshall, MI",
+"lat":42.25811999999988,
+"lng":-84.9632685
+},
+{
+"name":"Town of Holliston (Holliston, MA)",
+"lat":42.198753962051825,
+"lng":-71.4444351196289
+},
+{
+"name":"Anchorage (City of Anchorage)",
+"lat":61.108862499999006,
+"lng":-149.44031099999998
+},
+{
+"name":"SCSU",
+"lat":41.334302942875695,
+"lng":-72.94859647750854
+},
+{
+"name":"City of Memphis",
+"lat":35.129135999999676,
+"lng":-89.97272749999999
+},
+{
+"name":"Town and Country (Town and Country Condominiums, New Paltz, NY)",
+"lat":41.74918753136741,
+"lng":-74.08835584426924
+},
+{
+"name":"NYC District 5 (NYC City Council District 5)",
+"lat":40.76783084474573,
+"lng":-73.95107123767954
+},
+{
+"name":"City of Kenosha",
+"lat":42.58909717927233,
+"lng":-87.90218920946594
+},
+{
+"name":"Rembau",
+"lat":2.5686645000000397,
+"lng":102.10839900000005
+},
+{
+"name":"Utah DOT (Utah DOT)",
+"lat":39.50073555299306,
+"lng":-111.54390431686011
+},
+{
+"name":"Town of West Boylston (West Boylston, MA)",
+"lat":42.35805710322428,
+"lng":-71.78303895583113
+},
+{
+"name":"Atlantic County Utilities Authority (Atlantic City)",
+"lat":39.38018235817984,
+"lng":-74.453766418615
+},
+{
+"name":"Town of Andover (Town of Andover)",
+"lat":42.64954556560629,
+"lng":-71.16599600297782
+},
+{
+"name":"St. Charles (St. Charles)",
+"lat":38.79484849999977,
+"lng":-90.5152995
+},
+{
+"name":"City of Alpharetta",
+"lat":34.06740699999963,
+"lng":-84.280203
+},
+{
+"name":"City of Tontitown",
+"lat":36.162544999999696,
+"lng":-94.25230250000001
+},
+{
+"name":"City of Las Vegas (City of Las Vegas)",
+"lat":36.25522683572626,
+"lng":-115.2343263820221
+},
+{
+"name":"Six Forks Rd Corridor Study",
+"lat":35.84866811493296,
+"lng":-78.64018922528993
+},
+{
+"name":"City of Chula Vista",
+"lat":32.63176649999957,
+"lng":-117.0245305
+},
+{
+"name":"Surfside, FL (Town of Surfside)",
+"lat":25.87944549999929,
+"lng":-80.12656899999999
+},
+{
+"name":"Walnut Creek",
+"lat":37.894374999999755,
+"lng":-122.040312
+},
+{
+"name":"City of Lansing",
+"lat":42.708681499999884,
+"lng":-84.559032
+},
+{
+"name":"City of Albuquerque Traffic (City of Albuquerque Traffic)",
+"lat":35.08259799999932,
+"lng":-106.67649
+},
+{
+"name":"SPD (Salem Police)",
+"lat":42.515595499999876,
+"lng":-70.8472335
+},
+{
+"name":"Town of Ayer  (Ayer Massachusetts)",
+"lat":42.56120399999989,
+"lng":-71.5862625
+},
+{
+"name":"Town of Enfield ",
+"lat":41.98563271049326,
+"lng":-72.55800247192383
+},
+{
+"name":"Coatesville",
+"lat":39.99009799999982,
+"lng":-75.8196615
+},
+{
+"name":"Botucatu, Brazil",
+"lat":-22.924051999999904,
+"lng":-48.43044499999996
+},
+{
+"name":"City of McDonough",
+"lat":33.44265449999922,
+"lng":-84.15589449999999
+},
+{
+"name":"Kermit, TX",
+"lat":31.854214999999535,
+"lng":-103.0918345
+},
+{
+"name":"CT Transit Buses NHV (CT Transit Buses NHV)",
+"lat":41.29841695987152,
+"lng":-72.92917744395582
+},
+{
+"name":"City of Winona",
+"lat":44.0636474999999,
+"lng":-91.6600545
+},
+{
+"name":"City of St. Paul (City of St. Paul)",
+"lat":44.9396939999999,
+"lng":-93.10603549999999
+},
+{
+"name":"Atlantic County Utilities Authority (Longport)",
+"lat":39.31203631783626,
+"lng":-74.52934880049818
+},
+{
+"name":"Public Works / Customer Response Team",
+"lat":47.755834999983676,
+"lng":-122.343366
+},
+{
+"name":"Mankato 311 (Mankato 311)",
+"lat":44.1680929999999,
+"lng":-93.9861605
+},
+{
+"name":"Town of Cranford",
+"lat":40.655930499999826,
+"lng":-74.304192
+},
+{
+"name":"Framingham, MA (Framingham, MA)",
+"lat":42.304926999999864,
+"lng":-71.436912
+},
+{
+"name":"City of Hammond (City of Hammond)",
+"lat":41.64259549999986,
+"lng":-87.47889899999998
+},
+{
+"name":"Atlantic County Utilities Authority (Egg Harbor Township)",
+"lat":39.37966834242438,
+"lng":-74.60562681099239
+},
+{
+"name":"City of Richmond ",
+"lat":37.52537914098903,
+"lng":-77.49356552054199
+},
+{
+"name":"Moore, OK (City of Moore)",
+"lat":35.33071299999966,
+"lng":-97.468243
+},
+{
+"name":"Hydrant Volunteer Program (Richfield, MN Fire Hydrant Volunteer Program)",
+"lat":44.87729899999991,
+"lng":-93.2788735
+},
+{
+"name":"Parks",
+"lat":47.755834999983676,
+"lng":-122.343366
+},
+{
+"name":"Springerville, AZ (Springerville, AZ)",
+"lat":34.158286999999625,
+"lng":-109.28619699999999
+},
+{
+"name":"City of Cambridge (Powered by Leland Cheung)",
+"lat":42.37839049999987,
+"lng":-71.1122135
+},
+{
+"name":"City of Holyoke (City of Holyoke)",
+"lat":42.224090999999866,
+"lng":-72.64049399999999
+},
+{
+"name":"West Malaysia (Peninsular Malaysia) (West Malaysia (Peninsular Malaysia))",
+"lat":3.9850713882050455,
+"lng":102.20787048339844
+},
+{
+"name":"City of Oakland (Oakland, CA)",
+"lat":37.75874049999976,
+"lng":-122.2352765
+},
+{
+"name":"Minneapolis",
+"lat":44.97069699999991,
+"lng":-93.2614515
+},
+{
+"name":"Code Enforcement Area 5 (Code Enforcement Area 5)",
+"lat":30.5552556655985,
+"lng":-96.29733235754031
+},
+{
+"name":"Town of Whitman (Whitman, MA)",
+"lat":42.08049257071354,
+"lng":-70.93946416530069
+},
+{
+"name":"SF311",
+"lat":37.81827249999976,
+"lng":-122.4470325
+},
+{
+"name":"Torrance (Torrance)",
+"lat":33.83363899999962,
+"lng":-118.35110900000001
+},
+{
+"name":"Detroit Water & Sewerage Dept. (Detroit Water and Sewerage Department)",
+"lat":42.35271099999987,
+"lng":-83.099205
+},
+{
+"name":"Olathe",
+"lat":38.88192849999979,
+"lng":-94.8210355
+},
+{
+"name":"Stamford (The City of Stamford)",
+"lat":41.07168449999985,
+"lng":-73.5647845
+},
+{
+"name":"Atlantic County Utilities Authority (Margate City)",
+"lat":39.33091677856014,
+"lng":-74.50680464005178
+},
+{
+"name":"Atlantic County Utilities Authority (Mullica Township)",
+"lat":39.60918157148353,
+"lng":-74.67932100745827
+},
+{
+"name":"St. Albert (City of St. Albert)",
+"lat":53.64112787715433,
+"lng":-113.63676702310866
+},
+{
+"name":"Everett, MA (Everett, MA)",
+"lat":42.40534649999987,
+"lng":-71.0522575
+},
+{
+"name":"City of Albany (City of Albany)",
+"lat":42.66808449999987,
+"lng":-73.810681
+},
+{
+"name":"City of Canton",
+"lat":40.82515905423317,
+"lng":-81.35700865382785
+},
+{
+"name":"Georgetown County",
+"lat":33.444939202344784,
+"lng":-79.3414942990459
+},
+{
+"name":"City of Canton (Canton, GA)",
+"lat":34.24346799999928,
+"lng":-84.4960905
+},
+{
+"name":"City of Woburn (Woburn, MA)",
+"lat":42.48990849999987,
+"lng":-71.15956599999998
+},
+{
+"name":"Town of Ware (Ware, MA)",
+"lat":42.252987999999874,
+"lng":-72.242474
+},
+{
+"name":"Amigos de Americana",
+"lat":-22.72395199999994,
+"lng":-47.29073399999987
+},
+{
+"name":"City of Houston",
+"lat":29.83607915955608,
+"lng":-95.4611898305977
+},
+{
+"name":"Roosevelt Island",
+"lat":40.761100241069286,
+"lng":-73.95103454589844
+},
+{
+"name":"Town of Middleborough (Middleborough, MA)",
+"lat":41.880349058654105,
+"lng":-70.88144145054247
+},
+{
+"name":"Grande Prairie City Scrub (Grande Prairie City Scrub)",
+"lat":55.16041009089844,
+"lng":-118.81410927323725
+},
+{
+"name":"City of Chicopee",
+"lat":42.171142499999874,
+"lng":-72.57128
+},
+{
+"name":"Chelsea, MA",
+"lat":42.39899099999987,
+"lng":-71.03234549999999
+},
+{
+"name":"Farmington",
+"lat":44.65754599999991,
+"lng":-93.1622255
+},
+{
+"name":"Unincorporated (Unincorporated)",
+"lat":38.37704626635974,
+"lng":-121.44286317733508
+},
+{
+"name":"Town of Barnstable",
+"lat":41.663013999999855,
+"lng":-70.362728
+},
+{
+"name":"City of Wilminton",
+"lat":39.729900499999815,
+"lng":-75.5294815
+},
+{
+"name":"Toronto Star (Toronto Star)",
+"lat":43.716284999999985,
+"lng":-79.37236499999989
+},
+{
+"name":"SeeClickFix (Other Category)",
+"lat":39.5092165,
+"lng":-74.6436185
+},
+{
+"name":"Union City",
+"lat":33.585748999999225,
+"lng":-84.5590895
+},
+{
+"name":"City of Grande Prairie (City of Grande Prairie)",
+"lat":55.16041009089844,
+"lng":-118.81410927323725
+},
+{
+"name":"City of Taunton",
+"lat":41.916282499999866,
+"lng":-71.084395
+},
+{
+"name":"Burlington (City of Burlington)",
+"lat":43.3766985,
+"lng":-79.83815199999998
+},
+{
+"name":"Easton, MA (Easton, MA)",
+"lat":42.040298317991635,
+"lng":-71.11169902478127
+},
+{
+"name":"Brookfield, MA (Brookfield Massachusetts)",
+"lat":42.195052544709036,
+"lng":-72.10385242043331
+},
+{
+"name":"City of Macon",
+"lat":32.832297499999584,
+"lng":-83.642279
+},
+{
+"name":"City of Nevada",
+"lat":37.839335999999754,
+"lng":-94.3427435
+},
+{
+"name":"Jefferson County",
+"lat":30.384276794913248,
+"lng":-83.84017862393836
+},
+{
+"name":"Fall River, MA (Fall River, MA)",
+"lat":41.685587499999855,
+"lng":-71.1047095
+},
+{
+"name":"Bainbridge",
+"lat":30.905301999999498,
+"lng":-84.54511099999999
+},
+{
+"name":"City of Stockbridge (City of Stockbridge, GA) (City of Stockbridge)",
+"lat":33.52594844347867,
+"lng":-84.22618284148659
+},
+{
+"name":"Macon Bibb County (Macon Bibb County)",
+"lat":32.80712385725728,
+"lng":-83.69077015553427
+},
+{
+"name":"Midtown Alliance",
+"lat":33.78461983604545,
+"lng":-84.38433086328635
+},
+{
+"name":"Greater Shepparton (Greater Shepparton)",
+"lat":-36.427302350057275,
+"lng":145.41520516949458
+},
+{
+"name":"Town of Medway (Medway, MA)",
+"lat":42.15538869999474,
+"lng":-71.42709378255492
+},
+{
+"name":"Atlantic County Utilities Authority (Somers Point)",
+"lat":39.31693410439146,
+"lng":-74.60042051114105
+},
+{
+"name":"City of Palm Springs",
+"lat":33.77243699999963,
+"lng":-116.56384650000001
+},
+{
+"name":"CT Transit Buses Hartford (CT Transit Buses Hartford)",
+"lat":41.76560008572173,
+"lng":-72.68027529126354
+},
+{
+"name":"Galt (Galt)",
+"lat":38.270065298524585,
+"lng":-121.30988201643933
+},
+{
+"name":"City of Tucson",
+"lat":32.156286499999105,
+"lng":-110.88380599999999
+},
+{
+"name":"City of Bainbridge Island",
+"lat":47.651605499983404,
+"lng":-122.51671999999999
+},
+{
+"name":"Town of Hillsborough",
+"lat":37.55541699999975,
+"lng":-122.361215
+},
+{
+"name":"Chicago",
+"lat":41.83346899999986,
+"lng":-87.73188099999999
+},
+{
+"name":"City of Toronto",
+"lat":43.716284999999985,
+"lng":-79.37236499999989
+},
+{
+"name":"City of St. Petersburg",
+"lat":27.778769499999367,
+"lng":-82.6548205
+},
+{
+"name":"Atlantic County Utilities Authority (Northfield)",
+"lat":39.37224387009543,
+"lng":-74.55418854305756
+},
+{
+"name":"City of New Westminster (City of New Westminster)",
+"lat":49.20658964974274,
+"lng":-122.91750981436377
+},
+{
+"name":"Atlantic County Utilities Authority (Folsom)",
+"lat":39.592812213890596,
+"lng":-74.84243107905189
+},
+{
+"name":"City of Weatherford",
+"lat":32.76719249999957,
+"lng":-97.75131
+},
+{
+"name":"Atlantic County Utilities Authority (Linwood)",
+"lat":39.34423337189848,
+"lng":-74.56978745214221
+},
+{
+"name":"City of Coral Gables",
+"lat":25.692564131485852,
+"lng":-80.25085723408387
+},
+{
+"name":"Richmond",
+"lat":49.15530749998706,
+"lng":-123.13052899999988
+},
+{
+"name":"City of Somerville",
+"lat":42.39553899999987,
+"lng":-71.103748
+},
+{
+"name":"City of Huntsville (City of Huntsville)",
+"lat":34.70162822909968,
+"lng":-86.67243907702147
+},
+{
+"name":"City of Lake Elsinore",
+"lat":33.68755229735597,
+"lng":-117.31845758230556
+},
+{
+"name":"Gadsden County",
+"lat":30.5496765,
+"lng":-84.6068645
+},
+{
+"name":"Patton Township (Patton Township)",
+"lat":40.82535249432716,
+"lng":-77.92518154456593
+},
+{
+"name":"Atlantic County Utilities Authority (Absecon)",
+"lat":39.41807948152183,
+"lng":-74.49574636818613
+},
+{
+"name":"Atlantic County Utilities Authority (Buena Boro)",
+"lat":39.531017853301265,
+"lng":-74.94980367757128
+},
+{
+"name":"Atlantic County Utilities Authority (Egg Harbor City)",
+"lat":39.55929413510456,
+"lng":-74.59293585949813
+},
+{
+"name":"Burlington International Airport",
+"lat":44.47231611280792,
+"lng":-73.15383911132812
+},
+{
+"name":"Montgomery County (Montgomery County)",
+"lat":39.143922499999796,
+"lng":-77.207962
+},
+{
+"name":"Yarmouth Town, Nova Scotia (Yarmouth Town, Nova Scotia)",
+"lat":43.837267500000024,
+"lng":-66.10801749999993
+},
+{
+"name":"Agoura Hills (City of Agoura Hills)",
+"lat":34.14673649999964,
+"lng":-118.7598845
+},
+{
+"name":"Atlantic County Utilities Authority (Pleasantville)",
+"lat":39.387875202109356,
+"lng":-74.51822104375042
+},
+{
+"name":"City of Vallejo",
+"lat":38.11455899999977,
+"lng":-122.27704150000001
+},
+{
+"name":"Clark County (Clark County)",
+"lat":35.927750304543196,
+"lng":-114.9698093908975
+},
+{
+"name":"Health (Salem Board of Health)",
+"lat":42.515595499999876,
+"lng":-70.8472335
+},
+{
+"name":"Poulsbo, WA (City of Poulsbo)",
+"lat":47.74174349998364,
+"lng":-122.6439175
+},
+{
+"name":"City of Blaine",
+"lat":45.16524199999991,
+"lng":-93.204679
+},
+{
+"name":"DC 311 (Washington DC 311)",
+"lat":38.89359649999979,
+"lng":-77.014576
+},
+{
+"name":"City of Eden Prairie (City of Eden Prairie)",
+"lat":44.84545699999991,
+"lng":-93.459635
+},
+{
+"name":"City of Henderson (City of Henderson)",
+"lat":36.01365301730521,
+"lng":-115.05741137217564
+},
+{
+"name":"Town of Hopkinton (Hopkinton, MA)",
+"lat":42.225253475895826,
+"lng":-71.5312137502975
+},
+{
+"name":"Wadesboro, NC (Wadesboro, NC Basic)",
+"lat":34.96280049999967,
+"lng":-80.0889965
+},
+{
+"name":"Casino Reinvestment Dev. Authority",
+"lat":39.364354656500055,
+"lng":-74.433537157
+},
+{
+"name":"Reading, MA (Reading, MA)",
+"lat":42.53353849999988,
+"lng":-71.103607
+},
+{
+"name":"Isleton (Isleton)",
+"lat":38.162105188404404,
+"lng":-121.60305337456954
+},
+{
+"name":"Atlantic County Utilities Authority (Weymouth Township)",
+"lat":39.41357853502026,
+"lng":-74.78575908357169
+},
+{
+"name":"Darwin (City of Darwin)",
+"lat":-12.396840513126136,
+"lng":130.87550719031697
+},
+{
+"name":"City of Harrisburg",
+"lat":40.282143499999826,
+"lng":-76.880326
+},
+{
+"name":"Yerba Buena Community Benefit District (Yerba Buena Community Benefit District)",
+"lat":37.78382466400306,
+"lng":-122.40147113800049
+},
+{
+"name":"Atlantic County Utilities Authority (Ventnor City)",
+"lat":39.344556363962276,
+"lng":-74.48522959013911
+},
+{
+"name":"Union Square Business Improvement District (USBID) (Union Square Business Improvement District (USBID))",
+"lat":37.78692869485145,
+"lng":-122.40790891635697
+},
+{
+"name":"City of Brookhaven",
+"lat":33.8726442715318,
+"lng":-84.32837441028187
+},
+{
+"name":"Windsor, CT (Windsor, CT)",
+"lat":41.86495545218624,
+"lng":-72.68085562623403
+},
+{
+"name":"East Malaysia (Sabah, Sarawak and Labuan) (East Malaysia (Sabah, Sarawak and Labuan))",
+"lat":4.117778500000075,
+"lng":109.45521900000017
+},
+{
+"name":"Village of Goss (Village of Goss, MO)",
+"lat":39.51504149999981,
+"lng":-91.947104
+},
+{
+"name":"City of North Las Vegas (City of North Las Vegas)",
+"lat":36.31003982976385,
+"lng":-115.05440578193443
+},
+{
+"name":"Stormwise (Berlin, CT - Pilot)",
+"lat":41.60345895450824,
+"lng":-72.77568995338125
+},
+{
+"name":"Atlantic County Utilities Authority (Buena Vista Township)",
+"lat":39.51146504339019,
+"lng":-74.89901716679718
+},
+{
+"name":"City of Danville",
+"lat":36.592780614686774,
+"lng":-79.410723
+},
+{
+"name":"Town of Chelmsford (Town of Chelmsford)",
+"lat":42.60188499997512,
+"lng":-71.35593650006038
+}
+]

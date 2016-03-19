@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SCF.Question"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/q_multivaluelist_label" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GenericTextBody" />
+    <LinearLayout android:orientation="vertical" android:id="@id/q_multivalue_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+{
+    title: "Commonwealth Connect",
+    app_id: "CommonwealthConnect",
+
+    options: {
+        prompt_for_feedback: true,
+        help_link: "http://help.seeclickfix.com"
+    },
+
+    is_dedicated_app: true,
+    default_zone_id: 366,
+
+    allowed_zone_ids: [366,361,417,416,376,356,418,362,419,374,373,370,371,372,420,379,400,390,421,413,358,382,385,388,383,391,401,346,359,363,360,406,394,369,422,423,29,424,365,357,425,415,411,405,412,399,156,150,122,154,289,149,427,428,429,430,431,432,433,434,435,436,643,644,645,646,647,648,649,650,651,652,653,654,655,656,657,658,659,660,661,662,663,864,869,395],
+
+    report_alert_message: "Please Note",
+    report_alert_body_text: "This community is not participating in Commonwealth Connect, and therefore may not respond to this request.",
+    report_alert_button_text: "Participating Cities",
+    report_alert_button_uri: "http://m.cityofboston.gov/doit/apps/commonwealthconnect.asp"
+}

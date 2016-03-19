@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/dlg_place_name_textview" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GenericTextBody" />
+    <Button android:id="@id/dlg_place_btn_home" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_action_home" style="@style/GenericButton" />
+    <Button android:id="@id/dlg_place_btn_work" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_action_business" style="@style/GenericButton" />
+    <Button android:id="@id/dlg_place_btn_school" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_action_book" style="@style/GenericButton" />
+    <EditText android:id="@id/dlg_place_name_edittext" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/loc_save_dialog_hint" android:singleLine="true" android:maxLength="255" android:inputType="textCapWords" android:imeOptions="flagNoExtractUi" style="@style/GenericInputDark" />
+</LinearLayout>

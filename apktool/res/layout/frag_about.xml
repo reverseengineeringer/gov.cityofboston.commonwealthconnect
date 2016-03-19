@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SCF.ScrollView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.seeclickfix.ma.android.views.LogoTextView android:textSize="100.0sp" android:textColor="#ffcee29e" android:ellipsize="none" android:id="@id/dash_bg_txt" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/abt_title" android:singleLine="true" />
+            <com.seeclickfix.ma.android.views.LogoTextView android:textSize="36.0sp" android:ellipsize="none" android:id="@id/app_title" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/app_name" android:layout_alignBottom="@id/dash_bg_txt" />
+            <TextView android:id="@id/abt_content" android:paddingBottom="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/about_content" android:layout_below="@id/app_title" style="@style/GenericTextBody" />
+        </RelativeLayout>
+        <Button android:textColor="@color/scf_gray2" android:id="@id/abt_legal_notice" android:background="@drawable/btn_generic" android:paddingLeft="@dimen/padding_large" android:paddingTop="@dimen/padding_large" android:paddingRight="@dimen/padding_large" android:paddingBottom="@dimen/padding_large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="4.0dip" android:text="@string/abt_legal_hdr" />
+        <com.seeclickfix.ma.android.views.StyledTextView android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scf_version" style="@style/GenericTextLabel" />
+        <TextView android:id="@id/abt_version_string" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GenericTextBody" />
+        <com.seeclickfix.ma.android.views.StyledTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scf_build_device" style="@style/GenericTextLabel" />
+        <TextView android:id="@id/abt_device" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GenericTextBody" />
+        <com.seeclickfix.ma.android.views.StyledTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scf_build_os" style="@style/GenericTextLabel" />
+        <TextView android:id="@id/abt_os" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GenericTextBody" />
+        <View android:id="@id/abt_dev_btn" android:background="#01ffffff" android:layout_width="fill_parent" android:layout_height="80.0dip" />
+        <LinearLayout android:orientation="vertical" android:id="@id/dev_mode_console" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.seeclickfix.ma.android.views.StyledTextView android:textSize="24.0sp" android:textColor="#ffffffff" android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="DEVELOPER TOOLS" />
+            <com.seeclickfix.ma.android.views.StyledTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scf_build_env" style="@style/GenericTextLabel" />
+            <TextView android:id="@id/abt_env" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GenericTextBody" />
+            <com.seeclickfix.ma.android.views.StyledTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scf_build_number" style="@style/GenericTextLabel" />
+            <TextView android:id="@id/abt_git_hash" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hash" style="@style/GenericTextBody" />
+            <TextView android:id="@id/abt_git_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/timestamp" style="@style/GenericTextBody" />
+            <TextView android:id="@id/abt_version_code" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GenericTextBody" />
+            <com.seeclickfix.ma.android.views.StyledTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="LOCALE" />
+            <Spinner android:id="@id/abt_locale_spinner" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+            <com.seeclickfix.ma.android.views.StyledTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="SERVER" />
+            <Spinner android:id="@id/abt_change_environment" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+            <com.seeclickfix.ma.android.views.StyledTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="CUSTOM SERVER" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/abt_server" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="IP Address:Port" android:layout_weight="1.0" android:imeOptions="flagNoExtractUi" />
+                <Button android:gravity="center|left" android:id="@id/abt_set_server" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Set" android:layout_weight="1.0" />
+            </LinearLayout>
+            <com.seeclickfix.ma.android.views.StyledTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="PRESET LOCATIONS" />
+            <Spinner android:id="@id/abt_preset_locations_spinner" android:layout_width="fill_parent" android:layout_height="48.0dip" />
+            <com.seeclickfix.ma.android.views.StyledTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="CUSTOM LAT / LNG" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <EditText android:id="@id/abt_lat" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="Latitude" android:layout_weight="1.0" android:inputType="numberDecimal|numberSigned" android:imeOptions="flagNoExtractUi" />
+                <EditText android:id="@id/abt_lng" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="Longitude" android:layout_weight="1.0" android:inputType="numberDecimal|numberSigned" android:imeOptions="flagNoExtractUi" />
+                <Button android:gravity="center|left" android:id="@id/abt_set_latlng" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Set" android:layout_weight="1.0" />
+            </LinearLayout>
+            <Button android:gravity="center|left" android:id="@id/abt_stop_fake_locations" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Stop location faking" />
+            <com.seeclickfix.ma.android.views.StyledTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="DATABASE" />
+            <Button android:gravity="center|left" android:id="@id/abt_clear_data" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Clear DB (report drafts, cities, places)" />
+            <Button android:gravity="center|left" android:id="@id/abt_reload_city_data" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Reload city data" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

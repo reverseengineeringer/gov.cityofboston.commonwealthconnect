@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SCF.ReportSection"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.seeclickfix.ma.android.views.StyledTextView android:id="@id/rpt_followup_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/rpt_followup_label" style="@style/GenericTextLabel" />
+    <TextView android:id="@id/rpt_followup_body" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GenericTextBody" />
+</LinearLayout>

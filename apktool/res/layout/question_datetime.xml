@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SCF.Question"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/q_datetime_label" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/GenericTextBody" />
+    <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="*">
+        <TableRow>
+            <TextView android:id="@id/q_date_selection" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" style="@style/GenericInputDark" />
+            <Button android:id="@id/q_date_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/q_date_btn" android:drawableLeft="@drawable/ic_calendar" android:layout_weight="1.0" style="@style/GenericButton" />
+        </TableRow>
+        <TableRow>
+            <TextView android:id="@id/q_time_selection" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0" style="@style/GenericInputDark" />
+            <Button android:id="@id/q_time_btn" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/q_time_btn" android:drawableLeft="@drawable/ic_time" android:layout_weight="1.0" style="@style/GenericButton" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

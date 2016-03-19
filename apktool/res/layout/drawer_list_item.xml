@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left" android:paddingLeft="@dimen/padding_large" android:paddingTop="@dimen/padding_medium" android:paddingBottom="@dimen/padding_medium" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|left" android:id="@id/row_menu_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.seeclickfix.ma.android.views.StyledTextView android:textColor="#ffeeeeee" android:id="@id/row_menu_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_medium" style="@style/GenericTextLabel" />
+</LinearLayout>

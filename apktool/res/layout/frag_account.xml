@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.seeclickfix.ma.android.views.StyledTextView android:textSize="150.0sp" android:textColor="#10000000" android:ellipsize="none" android:id="@id/dash_bg_txt" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/act_title" android:singleLine="true" />
+</LinearLayout>

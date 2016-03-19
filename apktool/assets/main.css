@@ -1,0 +1,45 @@
+/*
+ * information: <color name="scf_logo_blue" >#2486b5</color>
+ * success: <color name="scf_green_status">#6fbc00</color>
+ * warning: <color name="scf_status_dark_orange">#f06d1e</color>
+ * scf_light_gray: #EEEEEE
+ * scf_logo_blue_lighten_40: #b7def1
+ */
+
+
+body {
+  background-color: #2486b5;
+  color: #eeeeee;
+}
+
+.alert-info {
+  background-color: #2486b5;
+}
+
+.alert-info p, .alert-info ul {
+   color: #b7def1;  /* 40% lightening of background */
+}
+
+.alert-success {
+  background-color: #6fbc00;
+}
+
+.alert-success p, .alert-success ul {
+  color: #dfedca;  /* desaturate(lighten(#6fbc00, 49), 50) */
+}
+
+.alert-warning {
+  background-color: #cfc91d;
+}
+
+.alert-warning p, .alert-warning ul {
+  color: #faf9ee;
+}
+
+.alert-danger {
+  background-color: #bc3500;
+}
+
+.alert-danger p, .alert-danger ul {
+  color: #f0dad6;
+}

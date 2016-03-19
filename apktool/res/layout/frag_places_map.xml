@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SCF.Fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/places_map_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/SCF.Footer">
+        <Button android:id="@id/places_map_save_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/places_map_save_btn" android:drawableRight="@drawable/ic_map_pin" android:layout_alignParentRight="true" style="@style/GenericButton" />
+        <com.seeclickfix.ma.android.views.StyledTextView android:id="@id/places_map_header_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/places_map_instructions" android:layout_toLeftOf="@id/places_map_save_btn" android:layout_alignParentLeft="true" style="@style/SCF.Footer.Text" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/places_map_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/places_map_footer" />
+    <View android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

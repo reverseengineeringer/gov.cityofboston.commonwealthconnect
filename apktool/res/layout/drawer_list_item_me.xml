@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left" android:background="#ff222222" android:padding="@dimen/padding_large" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center|left" android:id="@id/row_menu_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:id="@id/menu_me" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_medium">
+        <com.seeclickfix.ma.android.views.StyledTextView android:textColor="#ffeeeeee" android:id="@id/row_menu_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_medium" android:layout_marginTop="@dimen/margin_medium" style="@style/GenericTextLabel" />
+        <com.seeclickfix.ma.android.views.StyledTextView android:textSize="12.0sp" android:textColor="#ffaaaaaa" android:id="@id/row_menu_subtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_medium" android:layout_marginTop="0.0dip" style="@style/GenericTextLabel" />
+    </LinearLayout>
+</LinearLayout>

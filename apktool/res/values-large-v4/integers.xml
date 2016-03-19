@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="anim_long_speed">300</integer>
+    <integer name="anim_longplusshort_speed">450</integer>
+    <integer name="anim_short_speed">150</integer>
+    <integer name="map_padding_px">100</integer>
+    <integer name="map_places_padding_px">30</integer>
+</resources>

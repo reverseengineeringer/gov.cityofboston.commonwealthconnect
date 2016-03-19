@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@color/scf_bg_grey" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SCF.ScrollView"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.seeclickfix.ma.android.views.StyledTextView android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/reg_create_account_header" style="@style/GenericPageHeader" />
+        <TextView android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_displayname" style="@style/GenericTextBody" />
+        <EditText android:id="@id/reg_displayname_edittext" android:tag="@string/login_displayname" android:nextFocusDown="@id/reg_email_edittext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/login_displayname_hint" android:singleLine="true" android:inputType="textCapWords" android:imeOptions="flagNoExtractUi" style="@style/GenericInput" />
+        <TextView android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/login_displayname_subtext" style="@style/GenericTextSmall" />
+        <TextView android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_email_label" style="@style/GenericTextBody" />
+        <AutoCompleteTextView android:id="@id/reg_email_edittext" android:tag="@string/login_email_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/login_email_hint" android:singleLine="true" android:inputType="textEmailAddress" android:imeOptions="flagNoExtractUi" style="@style/GenericInput" />
+        <TextView android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/login_email_subtext" style="@style/GenericTextSmall" />
+        <TextView android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_pwd_label" style="@style/GenericTextBody" />
+        <EditText android:id="@id/reg_pwd_edittext" android:tag="@string/login_pwd_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="textPassword" android:imeOptions="flagNoExtractUi" style="@style/GenericInput" />
+        <TextView android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/login_pwd_label2" style="@style/GenericTextBody" />
+        <EditText android:id="@id/reg_pwd2_edittext" android:tag="@string/login_pwd_label2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:singleLine="true" android:inputType="textPassword" android:imeOptions="flagNoExtractUi" style="@style/GenericInput" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <CheckBox android:textSize="16.0sp" android:id="@id/reg_terms_chkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/reg_terms_checkbox_label" />
+            <TextView android:textSize="16.0sp" android:id="@id/reg_terms_linktext" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_large" android:layout_marginBottom="16.0dip" android:text="@string/reg_terms_link" android:onClick="showTerms" style="@style/SCF.TextLink" />
+        </LinearLayout>
+        <TextView android:id="@id/reg_status_textview" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ProgressBar android:id="@id/reg_progresswheel" android:visibility="gone" android:layout_width="36.0dip" android:layout_height="36.0dip" android:indeterminate="true" />
+        <Button android:id="@id/reg_submit_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:text="@string/reg_submit_btn" style="@style/ImportantButton" />
+    </LinearLayout>
+</ScrollView>

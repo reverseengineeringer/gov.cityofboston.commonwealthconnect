@@ -1,0 +1,23 @@
+version: 2.0.2
+apkFileName: base123123.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '9'
+  targetSdkVersion: '19'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '4075'
+  versionName: 4.2.0.4075
+sharedLibrary: false
+unknownFiles:
+  com/j256/ormlite/core/LICENSE.txt: '8'
+  com/j256/ormlite/core/README.txt: '8'
+  com/j256/ormlite/android/LICENSE.txt: '8'
+  com/j256/ormlite/android/README.txt: '8'
+  org/apache/http/entity/mime/version.properties: '8'
+doNotCompress:
+- resources.arsc

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/card_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/zone_bg_color_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:adjustViewBounds="true">
+            <ImageView android:id="@id/zone_icon" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="150.0dip" />
+            <CheckBox android:id="@id/zone_btn_star" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/check_star" />
+        </LinearLayout>
+        <com.seeclickfix.ma.android.views.StyledTextView android:id="@id/zone_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_large" android:layout_marginTop="@dimen/margin_large" android:layout_marginRight="@dimen/margin_large" android:layout_marginBottom="@dimen/margin_large" style="@style/GenericTextLabel" />
+        <TextView android:id="@id/zone_description" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/GenericTextBody" />
+        <TextView android:gravity="center_horizontal" android:id="@id/zone_disclaimer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" style="@style/GenericTextBody" />
+        <com.seeclickfix.ma.android.views.ResizableGridView android:orientation="horizontal" android:id="@id/zone_btn_container" android:padding="@dimen/padding_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/margin_small" android:horizontalSpacing="4.0dip" android:verticalSpacing="4.0dip" android:stretchMode="columnWidth" android:numColumns="3" android:adjustViewBounds="true" android:isScrollContainer="false" />
+    </LinearLayout>
+</FrameLayout>

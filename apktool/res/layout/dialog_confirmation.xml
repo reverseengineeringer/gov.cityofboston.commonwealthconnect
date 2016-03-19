@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:id="@id/confirmation_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_xlarge" android:layout_marginTop="@dimen/margin_large" android:layout_marginRight="@dimen/margin_xlarge" android:layout_marginBottom="@dimen/margin_large" android:text="@string/lorem_1s" />
+    <TextView android:textSize="16.0sp" android:id="@id/confirmation_extra" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/margin_xlarge" android:layout_marginTop="@dimen/margin_large" android:layout_marginRight="@dimen/margin_xlarge" android:layout_marginBottom="@dimen/margin_large" android:text="" />
+</LinearLayout>

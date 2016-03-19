@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.seeclickfix.ma.android.views.NetworkButton android:textSize="12.0sp" android:textColor="#ff222222" android:gravity="center|left" android:background="@drawable/btn_nugget" android:layout_width="fill_parent" android:layout_height="48.0dip" android:singleLine="true" android:drawablePadding="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

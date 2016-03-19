@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/SCF.Fragment"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/pager_top_nav" android:background="@color/scf_logo_grey" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.viewpagerindicator.TabPageIndicator android:id="@id/indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:layout_gravity="bottom" android:background="@color/scf_orange" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/pager_bottom_nav" android:background="@color/scf_logo_grey" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_alignParentBottom="true">
+        <FrameLayout android:id="@id/pager_btn_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:layout_alignParentRight="true" />
+        <FrameLayout android:gravity="center|left" android:orientation="horizontal" android:id="@id/pager_contextual_nav_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/pager_btn_container" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    <android.support.v4.view.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/pager_bottom_nav" android:layout_below="@id/pager_top_nav" />
+    <View android:id="@id/footer_shadow" android:background="@drawable/footer_shadow" android:layout_width="fill_parent" android:layout_height="8.0dip" android:layout_above="@id/pager_bottom_nav" />
+</RelativeLayout>
